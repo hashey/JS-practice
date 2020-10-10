@@ -94,8 +94,6 @@ const findBestEmployee = function (employees) {
     const entries = Object.entries(employees);
     const values = Object.values(employees);
     const max = Math.max(...values);
-
-    
 for (const entry of entries) {
   const key = entry[0];
   const value = entry[1];
